@@ -1,5 +1,4 @@
-using Random, Statistics, Distributions
-using Plots
+using Random, Statistics, Distributions, Plots
 
 # Problème 5
 function simulation_prix_action(μ, σ, Δt, T, S0)
