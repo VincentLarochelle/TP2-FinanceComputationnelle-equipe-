@@ -18,7 +18,7 @@ function simuler_colonie(λ=0.05, temps_total=60.0, n_sim=1000)
                 break
             end
             
-            population += 1  # Division
+            population += 1  
             
             # Enregistrer premier doublement
             if population == 2 && premier_doublement === nothing
