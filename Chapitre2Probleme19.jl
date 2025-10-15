@@ -4,7 +4,7 @@ function simuler_colonie(λ=0.05, temps_total=60.0, n_sim=1000)
     temps_doublement = Float64[]
     populations_finales = Int64[]
     
-    for _ in 1:n_sim
+    for i in 1:n_sim
         population = 1
         temps = 0.0
         premier_doublement = nothing
